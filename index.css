@@ -1,0 +1,135 @@
+/* 
+    Author: Krishant Kumar;
+    Theme: Cafe Website Project;
+    Version: 1.0;
+*/
+
+*{ 
+    margin: 0 0; 
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-curve { 
+    border-radius: 10px;
+}
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+a {
+    color: #68A7AC;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #05697C;
+}
+
+.btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #68A7AC;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #05697C;
+}
+
+h2 {
+    color: black;
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+.float-container {
+    position: relative;
+}
+
+.float-text {
+    position: absolute;
+    bottom: 50px;
+    left: 27%;
+}
+
+/* CSS for the navbar */
+
+.logo {
+    border: 1px solid black;
+    width: 10%;
+    float: left;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/* CSS for the search bar */
+
+.search-bar {
+    background-image: url("C:/xampp/htdocs/Website Project/Files/HTML/images/background-img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    padding: 7% 0;
+}
+
+.search-bar input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px; 
+}
+
+/* CSS for slideshow */
+
+.slideshow {
+    padding: 5% 0;
+}
+
+.box {
+    border: 1px solid black;
+    width: 29%;
+    float: left;
+    margin: 2%;
+}
