@@ -1,9 +1,9 @@
-/* 
+/*  
     Author: Krishant Kumar;
     Theme: Cafe Website Project;
     Version: 1.0;
 */
-
+ 
 body {
     background-color: #b22c49;
 }
@@ -13,8 +13,8 @@ body {
     padding: 0 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .container {
-    border: 1px solid black;
     width: 80%;
     margin: 0 auto;
     padding: 1%;
@@ -50,7 +50,7 @@ a {
 }
 
 a:hover {
-    color: grey;
+    color: #68A7AC;
 }
 
 .btn {
@@ -67,7 +67,13 @@ a:hover {
 }
 
 .btn-primary:hover {
+    color: white;
     background-color: #b22c49;
+}
+
+h1 {
+    color: white;
+    font-size: 1.7rem;
 }
 
 h2 {
@@ -77,6 +83,8 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+    color: white;
+    margin-left: 2%;
 }
 .float-container {
     position: relative;
@@ -91,35 +99,59 @@ h3 {
 /* CSS for the navbar */
 
 .logo {
-    border: 1px solid black;
-    width: 10%;
+    width: 7.5%;
     float: left;
 }
 
-.navbar ul {
-    list-style-type: none;
-
+.menu {
+    line-height: 110px;
 }
 
-.navbar ul li {
+.menu ul {
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+.menu ul li {
     display: inline;
     padding: 1%;
     font-weight: bold;
+    font-size: 1.1rem;
     background-color: black;
 }
 
-/* CSS for the search bar */
+.title-text {
+    font-size: 3rem;
+}
 
-.search-bar {
-    background-image: url("C:/xampp/htdocs/Website Project/Files/HTML/images/background-img2.jpg");
+.title-background1 {
+    background-image: url("images/background-img1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
-    padding: 7% 0;
+    padding: 10% 0;
 }
 
-.search-bar input[type="search"]{
+.title-background2 {
+    background-image: url("images/background-img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 10% 0;
+}
+
+.title-background3 {
+    background-image: url("images/background-img3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 10% 0;
+}
+
+.search-bar input[type="search"] {
     width: 50%;
     padding: 1%;
     font-size: 1rem;
@@ -127,6 +159,11 @@ h3 {
     border-radius: 5px; 
 }
 
+.nav-title {
+    display: inline;
+    margin-right: 3%;
+    font-size: 1.8rem;
+}
 /* CSS for slideshow */
 
 .slideshow {
@@ -134,8 +171,118 @@ h3 {
 }
 
 .box {
-    border: 1px solid black;
     width: 29%;
     float: left;
     margin: 2%;
+}
+
+/* CSS for Food Menu */
+
+.food-menu {
+    background-color: #68A7AC;
+    padding: 5% 0;
+}
+
+.food-menu-box {
+    width: 44%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.food-menu-img {
+    width: 30%;
+    float: left;
+}
+
+.food-menu-desc {
+    width: 50%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+    color: black;
+    font-weight: bold;
+}
+
+.food-details {
+    font-size: 0.75rem;
+    color: #fe7f2d
+}
+
+/* CSS for Navigation Columns */
+
+.nav-columns ul {
+    background-color: black;
+    border-radius: 10px;
+    padding: 1%;
+    list-style-type: none;
+}
+
+.nav-columns ul li {
+    display: inline;
+    padding: 4%;
+}
+
+/* CSS for footer */
+
+.footer {
+    color: white;
+}
+
+/* CSS for social media */
+.socials {
+    text-align: center;
+}
+.socials li {
+    display: inline;
+}
+
+/* CSS to make website Responsive for other devices */
+
+@media only screen and (max-width:768px) {
+    .logo{
+        width: 25%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .menu ul {
+        text-align: center;
+    }
+
+    .search-bar input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+
+    .search-bar {
+        padding: 10% 0;
+    }
+
+    .btn {
+        width: 90%;
+        padding: 2%;
+    }
+
+    .box {
+        width: 95%;
+        margin: 2% auto;
+    }
+
+    .food-menu-box {
+        width: 90%;
+        padding: 4%;
+        margin-bottom: 5%;
+    }
+
+    .socials {
+        padding: 5%;
+    }
 }
