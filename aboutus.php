@@ -6,38 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
     <!-- Linking CSS file -->
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index2.css">
+
 </head>
 <body>
     <!-- navigation bar -->
     <section class="navbar">
-        <div class="container">
-          <div class="logo">
-            <a href="index.html"><img src="images/HHSlogo.png" alt="HHS logo" class="img-responsive"></a>
-          </div>
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"><img src="images/HHSlogo.png" alt="HHS logo" class="img-responsive"></a>
+        </div>
+        
+        <div class="menu text-right">
           
-          <div class="menu text-right">
-            
-            <ul>
-              <h1 class="nav-title">HENDERSON HIGH SCHOOL CAFE</h1>            
-              <li>
-                <a href="index.php">HOME</a>
-              </li>
-              <li>
-                <a href="menu.php">ORDER</a>
-              </li>
-              <li>
-                <a href="aboutus.php">ABOUT US</a>
-              </li>
-              <li>
-                <a href="contactus.php">CONTACT US</a>
-              </li>
-            </ul>
-        </div>
-          <div class="clearfix"></div>
-        </div>
-      </section>
-      <!-- navigation bar ends -->
+          <ul>
+            <h1 class="nav-title">HENDERSON HIGH SCHOOL CAFE</h1>            
+            <li>
+              <a href="index.php">HOME</a>
+            </li>
+            <li>
+              <a href="menu.php">ORDER</a>
+            </li>
+            <li>
+              <a href="aboutus.php">ABOUT US</a>
+            </li>
+            <li>
+              <a href="login.php">LOGIN</a>
+            </li>
+            <li>
+              <a href="register.php">REGISTER</a>
+            </li>
+          </ul>
+      </div>
+        <div class="clearfix"></div>
+      </div>
+    </section>
+    <!-- navigation bar ends -->
           <!-- Background -->
     <section class="title-background2 text-center">
         <div class="container">
@@ -51,17 +55,20 @@
         <div class="container text-center">
             <ul>
                 <li>
-                    <a href="index.html">HOME</a>
+                    <a href="index.php">HOME</a>
                 </li>
                 <li>
-                    <a href="menu.html">ORDER</a>
+                    <a href="menu.php">ORDER</a>
                 </li>
                 <li>
-                    <a href="aboutus.html">ABOUT US</a>
+                    <a href="aboutus.php">ABOUT US</a>
                 </li>
                 <li>
-                    <a href="contactus.html">CONTACT US</a>
-                </li>                
+                    <a href="login.php">LOGIN</a>
+                </li>
+                <li>
+              <a href="register.php">REGISTER</a>
+            </li>                
             </ul>
             <div class="clearfix"></div>
         </div>

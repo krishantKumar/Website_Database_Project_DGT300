@@ -30,7 +30,10 @@
               <a href="aboutus.php">ABOUT US</a>
             </li>
             <li>
-              <a href="contactus.php">CONTACT US</a>
+              <a href="login.php">LOGIN</a>
+            </li>
+            <li>
+              <a href="register.php">REGISTER</a>
             </li>
           </ul>
       </div>
@@ -38,9 +41,6 @@
       </div>
     </section>
     <!-- navigation bar ends -->
-    
-    
-
     <!-- Background -->
     <section class="title-background1 text-center">
       <div class="container">
@@ -52,21 +52,21 @@
     <section class="slideshow">
       <div class="container">
         <h2 class="text-center">Categories</h2>
-        <a href="#">
+        <a href="menu.php">
           <div class="box float-container">
-            <img src="images\coffee1.jpg" alt="coffee1" class="img-responsive img-curve">
+            <img src="images/coffee1.jpg" alt="coffee1" class="img-responsive img-curve">
             <h3 class="float-text text-white">BEVERAGES</h3>
           </div>
         </a>
-        <a href="#">
+        <a href="menu.php">
           <div class="box float-container">
-            <img src="images\burger1.jpg" alt="burger1" class="img-responsive img-curve">
+            <img src="images/burger1.jpg" alt="burger1" class="img-responsive img-curve">
             <h3 class="float-text text-white">BURGERS</h3>
           </div>
         </a>
-        <a href="#">
+        <a href="menu.php">
           <div class="box float-container">
-            <img src="images\dessert1.jpg" alt="dessert1" class="img-responsive img-curve">
+            <img src="images/dessert1.jpg" alt="dessert1" class="img-responsive img-curve">
             <h3 class="float-text text-white">DESSERTS</h3>
           </div>
         </a>
@@ -78,12 +78,11 @@
     <section class="food-menu">
       <div class="container">
           <h2 class="text-center">Explore our menu</h2>
-          <h3 class="text-center">BEVERAGES</h3>
           <br>
 
       <div class="food-menu-box">
           <div class="food-menu-img">
-              <img src="images\Latte.jpg" alt="latte" class="img-responsive img-curve">
+              <img src="images2/product-5.jpg" alt="latte" class="img-responsive img-curve">
           </div>
 
           <div class="food-menu-desc">
@@ -100,7 +99,7 @@
 
       <div class="food-menu-box">
           <div class="food-menu-img">
-              <img src="images\cappuccino.jpg" alt="cappuccino" class="img-responsive img-curve">
+              <img src="images2/product-2.jpg" alt="cappuccino" class="img-responsive img-curve">
           </div>
 
           <div class="food-menu-desc">
@@ -117,7 +116,7 @@
 
       <div class="food-menu-box">
           <div class="food-menu-img">
-              <img src="images\Hot-Chocolate.jpg" alt="hot-chocolate" class="img-responsive img-curve">
+              <img src="images2/product-4.jpg" alt="hot-chocolate" class="img-responsive img-curve">
           </div>
 
           <div class="food-menu-desc">
@@ -134,7 +133,7 @@
 
       <div class="food-menu-box">
           <div class="food-menu-img">
-              <img src="images\mocha.jpg" alt="mocha" class="img-responsive img-curve">
+              <img src="images2/product-6.jpg" alt="mocha" class="img-responsive img-curve">
           </div>
 
           <div class="food-menu-desc">
@@ -148,11 +147,10 @@
               <a href="#" class="btn btn-primary">ORDER NOW</a>
           </div>
       </div>
-      <h3 class="text-center">BURGERS</h3>
 
       <div class="food-menu-box">
           <div class="food-menu-img">
-              <img src="images\Chicken-burger.jpg" alt="chicken-burger" class="img-responsive img-curve">
+              <img src="images2/product-3.jpg" alt="chicken-burger" class="img-responsive img-curve">
           </div>
 
           <div class="food-menu-desc">
@@ -169,7 +167,7 @@
 
       <div class="food-menu-box">
           <div class="food-menu-img">
-              <img src="images\veg-burger.jpg" alt="veg-burger" class="img-responsive img-curve">
+              <img src="images2/product-8.jpg" alt="veg-burger" class="img-responsive img-curve">
           </div>
 
           <div class="food-menu-desc">
@@ -183,11 +181,10 @@
               <a href="#" class="btn btn-primary">ORDER NOW</a>
           </div>
       </div>
-      <h3 class="text-center">DESSERTS</h3>
 
       <div class="food-menu-box">
           <div class="food-menu-img">
-              <img src="images\brownie.jpg" alt="brownie" class="img-responsive img-curve">
+              <img src="images2/product-1.jpg" alt="brownie" class="img-responsive img-curve">
           </div>
 
           <div class="food-menu-desc">
@@ -204,7 +201,7 @@
 
       <div class="food-menu-box">
           <div class="food-menu-img">
-              <img src="images\muffin.jpg" alt="muffin" class="img-responsive img-curve">
+              <img src="images2/product-7.jpg" alt="muffin" class="img-responsive img-curve">
           </div>
 
           <div class="food-menu-desc">
@@ -228,17 +225,20 @@
       <div class="container text-center">
           <ul>
               <li>
-                  <a href="index.html">HOME</a>
+                  <a href="index.php">HOME</a>
               </li>
               <li>
-                  <a href="menu.html">ORDER</a>
+                  <a href="menu.php">ORDER</a>
               </li>
               <li>
-                  <a href="aboutus.html">ABOUT US</a>
+                  <a href="aboutus.php">ABOUT US</a>
               </li>
               <li>
-                  <a href="contactus.html">CONTACT US</a>
-              </li>                
+                  <a href="login.php">LOGIN</a>
+              </li>
+              <li>
+              <a href="register.php">REGISTER</a>
+            </li>                
           </ul>
           <div class="clearfix"></div>
       </div>

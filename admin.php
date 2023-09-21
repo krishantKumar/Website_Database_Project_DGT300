@@ -67,6 +67,7 @@ if(isset($_POST['update_product'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/index.css">
+   
 
 </head>
 <body>
@@ -80,8 +81,6 @@ if(isset($message)){
 };
 
 ?>
-
-<?php include 'header.php'; ?>
 
 <div class="container">
 
@@ -168,21 +167,6 @@ if(isset($message)){
 </section>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 
