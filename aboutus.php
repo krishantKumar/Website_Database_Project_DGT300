@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <!-- makes website responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>ABOUT US</title>
+    <link rel="icon" href="images/favicon.ico" type="image/ico">
     <!-- Linking CSS file -->
     <link rel="stylesheet" href="css/index2.css">
 
@@ -14,7 +15,7 @@
     <section class="navbar">
       <div class="container">
         <div class="logo">
-          <a href="index.html"><img src="images/HHSlogo.png" alt="HHS logo" class="img-responsive"></a>
+          <a href="index.html"><img src="images/HHSlogo.jpg" alt="HHS logo" class="img-responsive"></a>
         </div>
         
         <div class="menu text-right">

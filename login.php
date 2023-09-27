@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
    if(mysqli_num_rows($select) > 0){
       $row = mysqli_fetch_assoc($select);
       $_SESSION['user_id'] = $row['id'];
-      header('location:login.php');
+      header('location:index.php');
    }else{
       $message[] = 'incorrect password or email!';
    }
@@ -29,6 +29,8 @@ if(isset($_POST['submit'])){
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>login</title>
+      <!-- linking a favicon -->
+   <link rel="icon" href="images/favicon.ico" type="image/ico">
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">

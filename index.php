@@ -5,6 +5,8 @@
     <!-- makes website responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
+       <!-- linking a favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/ico">
     <!-- Linking CSS file -->
     <link rel="stylesheet" href="css/index2.css">
   </head>
@@ -13,7 +15,7 @@
     <section class="navbar">
       <div class="container">
         <div class="logo">
-          <a href="index.html"><img src="images/HHSlogo.png" alt="HHS logo" class="img-responsive"></a>
+          <a href="index.html"><img src="images/HHSlogo.jpg" alt="HHS logo" class="img-responsive"></a>
         </div>
         
         <div class="menu text-right">
@@ -93,7 +95,7 @@
               </p>
               <br>
 
-              <a href="#" class="btn btn-primary">ORDER NOW</a>
+              <a href="menu.php" class="btn btn-primary">ORDER NOW</a>
           </div>
       </div>
 
@@ -110,7 +112,7 @@
               </p>
               <br>
               
-              <a href="#" class="btn btn-primary">ORDER NOW</a>
+              <a href="menu.php" class="btn btn-primary">ORDER NOW</a>
           </div>
       </div>
 
@@ -127,7 +129,7 @@
               </p>
               <br>
               
-              <a href="#" class="btn btn-primary">ORDER NOW</a>
+              <a href="menu.php" class="btn btn-primary">ORDER NOW</a>
           </div>
       </div>
 
@@ -144,7 +146,7 @@
               </p>
               <br>
               
-              <a href="#" class="btn btn-primary">ORDER NOW</a>
+              <a href="menu.php" class="btn btn-primary">ORDER NOW</a>
           </div>
       </div>
 
@@ -161,7 +163,7 @@
               </p>
               <br>
               
-              <a href="#" class="btn btn-primary">ORDER NOW</a>
+              <a href="menu.php" class="btn btn-primary">ORDER NOW</a>
           </div>
       </div>
 
@@ -178,7 +180,7 @@
               </p>
               <br>
               
-              <a href="#" class="btn btn-primary">ORDER NOW</a>
+              <a href="menu.php" class="btn btn-primary">ORDER NOW</a>
           </div>
       </div>
 
@@ -195,7 +197,7 @@
               </p>
               <br>
               
-              <a href="#" class="btn btn-primary">ORDER NOW</a>
+              <a href="menu.php" class="btn btn-primary">ORDER NOW</a>
           </div>
       </div>
 
@@ -212,7 +214,7 @@
               </p>
               <br>
               
-              <a href="#" class="btn btn-primary">ORDER NOW</a>
+              <a href="menu.php" class="btn btn-primary">ORDER NOW</a>
           </div>
       </div>
 
@@ -247,10 +249,10 @@
       <div class="socials">
       <ul>
           <li>
-              <a href="#"><img width="48" height="48" src="https://img.icons8.com/fluency/96/facebook-new.png" alt="facebook-new"/></a>
+              <a href="https://www.instagram.com/"><img width="48" height="48" src="https://img.icons8.com/fluency/96/facebook-new.png" alt="facebook-new"/></a>
           </li>
           <li>
-              <a href="#"><img width="48" height="48" src="https://img.icons8.com/fluency/96/instagram-new.png" alt="instagram-new"/></a>
+              <a href="https://www.facebook.com/"><img width="48" height="48" src="https://img.icons8.com/fluency/96/instagram-new.png" alt="instagram-new"/></a>
           </li>
       </ul>
       <div class="clearfix"></div>
