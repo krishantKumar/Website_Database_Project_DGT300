@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
    $select = mysqli_query($conn, "SELECT * FROM `user_form` WHERE email = '$email' AND password = '$pass'") or die('query failed');
 
    if(mysqli_num_rows($select) > 0){
-      $message[] = 'user already exist!';
+      $message[] = 'user already exists!';
    }else{
       mysqli_query($conn, "INSERT INTO `user_form`(name, email, password) VALUES('$name', '$email', '$pass')") or die('query failed');
       $message[] = 'registered successfully!';

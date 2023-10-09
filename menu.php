@@ -17,7 +17,7 @@
     <section class="navbar">
       <div class="container">
         <div class="logo">
-          <a href="index.html"><img src="images/HHSlogo.jpg" alt="HHS logo" class="img-responsive"></a>
+          <a href="index.php"><img src="images/HHSlogo.jpg" alt="HHS logo" class="img-responsive"></a>
         </div>
         
         <div class="menu text-right">
@@ -45,12 +45,15 @@
       </div>
     </section>
     <!-- navigation bar ends -->
+
           <!-- Background -->
-    <section class="title-background3 text-center">
+          <hr class="hr">
+    <section class="text-center">
         <div class="container">
           <h1 class="title-text">ORDER</h1>
         </div>
       </section>
+      <hr class="hr">
       <!-- Background ends -->
 <?php
 

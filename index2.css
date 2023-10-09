@@ -3,15 +3,28 @@
     Theme: Cafe Website Project;
     Version: 1.0;
 */
- 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 body {
     background-color: #b22c49;
 }
 
-*{  
+*{
+    font-family: 'Poppins', sans-serif;
     margin: 0 0; 
     padding: 0 0;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This code styles the horizontal rule*/
+.hr {
+    margin: 0 auto;
+    width: 80%;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right,
+     rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), 
+     rgba(255, 255, 255, 0));
 }
 
 .container {
@@ -50,24 +63,25 @@ a {
 }
 
 a:hover {
-    color: #68A7AC;
+    color: #fac585;
 }
 
 .btn {
-    padding: 1%;
+    padding: 2%;
     border: none;
     font-size: 1rem;
     border-radius: 5px;
 }
 
 .btn-primary {
-    background-color: #903145;
-    color: white;
+    background-color: #32e875;
+    color: black;
+    font-weight: bold;
     cursor: pointer;
 }
 
 .btn-primary:hover {
-    color: white;
+    color: #fac585;
     background-color: #b22c49;
 }
 
@@ -99,8 +113,13 @@ h3 {
 
 /* CSS for the navbar */
 
+.navbar {
+    background-color: black;
+    padding: 2%;
+}
+
 .logo {
-    width: 7.5%;
+    width: 12%;
     float: left;
 }
 
@@ -115,41 +134,16 @@ h3 {
 
 .menu ul li {
     display: inline;
-    padding: 1%;
+    border-radius: 5px;
+    padding: 0.5%;
+    margin: 0.5%;
     font-weight: bold;
     font-size: 1.1rem;
-    background-color: #333;
+    background-color: #903145;
 }
 
 .title-text {
     font-size: 3rem;
-}
-
-.title-background1 {
-    background-image: url("images/background-img1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
-    padding: 10% 0;
-}
-
-.title-background2 {
-    background-image: url("images/background-img2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    padding: 10% 0;
-}
-
-.title-background3 {
-    background-image: url("images/background-img3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    padding: 10% 0;
 }
 
 .search-bar input[type="search"] {
@@ -162,7 +156,7 @@ h3 {
 
 .nav-title {
     display: inline;
-    margin-right: 3%;
+    margin-right: 2%;
     font-size: 1.8rem;
 }
 /* CSS for slideshow */
@@ -185,7 +179,7 @@ h3 {
 }
 
 .food-menu-box {
-    width: 44%;
+    width: 46%;
     margin: 1%;
     padding: 1%;
     float: left;
@@ -194,7 +188,7 @@ h3 {
 }
 
 .food-menu-img {
-    width: 30%;
+    width: 42%;
     float: left;
 }
 
@@ -202,6 +196,7 @@ h3 {
     width: 50%;
     float: left;
     margin-left: 8%;
+    font-weight: bold;
 }
 
 .food-price {
